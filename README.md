@@ -31,7 +31,7 @@ Then visit <http://localhost:8000>.
 
 ## Update invitation details
 
-- **Names, wedding date, venue address, map links, and WhatsApp number:** edit the `CONFIG` object near the top of [`assets/js/script.js`](assets/js/script.js). Keep the date in ISO format with its intended timezone. The displayed dates and WhatsApp message also contain fixed date text: update the relevant text in [`index.html`](index.html) and the share-message template in the script when changing the wedding date.
+- **Names, wedding date, venue address, and map links:** edit the `CONFIG` object near the top of [`assets/js/script.js`](assets/js/script.js). Keep the date in ISO format with its intended timezone. The displayed dates and WhatsApp message also contain fixed date text: update the relevant text in [`index.html`](index.html) and the share-message template in the script when changing the wedding date. WhatsApp sharing lets the sender choose a recipient.
 - **Event names, dates, timings, dress codes, and colour palettes:** edit the `EVENTS` array and, if needed, `TRAD` in [`assets/js/script.js`](assets/js/script.js). Each translated field is stored as `[English, Hindi]`.
 - **Visible venue details and other fixed page copy:** edit the corresponding HTML in [`index.html`](index.html), including both `data-en` and `data-hi` values where present.
 - **Photographs:** replace `hero-wedding.jpg` and `story-wedding.jpg` in `assets/images/` with your own images, keeping those filenames, or update the corresponding relative `url("../images/...")` paths in [`assets/css/style.css`](assets/css/style.css). Add the venue photograph as `assets/images/img.jpeg`, or change the `.location-background .bg` URL in the stylesheet to a different file under `assets/images/`.

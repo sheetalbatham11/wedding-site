@@ -6,8 +6,7 @@ const CONFIG = {
   venueName: "Bhopal, Madhya Pradesh",
   venueAddress: "Bhopal, Madhya Pradesh, India",
   mapsUrl: "https://maps.app.goo.gl/BA7CgT13tcsQhm3XA",
-  residenceMapsUrl: "https://maps.app.goo.gl/WX7qTrFr4rP4ZBv29?g_st=ic",
-  whatsappNumber: "+919907360939"
+  residenceMapsUrl: "https://maps.app.goo.gl/WX7qTrFr4rP4ZBv29?g_st=ic"
 };
 
 // ===== EVENTS: edit times, names and dress codes here (English, Hindi) =====
@@ -108,9 +107,7 @@ document.getElementById("shareBtn").addEventListener("click", () => {
   const message = currentLanguage === "hi"
     ? `${names} के विवाह का सादर निमंत्रण! तारीख: 27 फरवरी 2027। स्थान: ${CONFIG.venueAddress}। अधिक जानकारी: ${pageUrl}`
     : `You're warmly invited to ${names}' wedding on 27 February 2027 in ${CONFIG.venueAddress}. Invitation: ${pageUrl}`;
-  const number = (CONFIG.whatsappNumber || "").replace(/\D/g, "");
-  const base = number ? `https://wa.me/${number}?text=` : "https://wa.me/?text=";
-  window.open(base + encodeURIComponent(message), "_blank", "noopener,noreferrer");
+  window.open("https://wa.me/?text=" + encodeURIComponent(message), "_blank", "noopener,noreferrer");
 });
 
 document.getElementById("calendarBtn").addEventListener("click", () => {
