@@ -13,10 +13,10 @@ const CONFIG = {
 const TRAD = [["#e6c44c","Yellow","पीला"],["#d9823b","Orange","नारंगी"],["#52764b","Green","हरा"],["#ffffff","White","सफेद"]];
 const EVENTS = [
   {d:"25", w:["Thu","गुरु"], t:["4:00 PM onwards · At our residence","शाम 4:00 बजे से · हमारे निवास स्थान पर"], n:["Sundarkand & Ratri Jagran","सुंदरकांड एवं रात्रि जागरण"], dc:["Traditional ethnic attire","पारंपरिक भारतीय पोशाक"], map:true},
-  {d:"26", w:["Fri","शुक्र"], t:["9:00 AM onwards · From our residence","सुबह 9:00 बजे से · हमारे निवास स्थान से"], n:["Mata Poojan · Haldi & Mehendi","माता पूजन · हल्दी एवं मेहंदी"], dc:["Rajasthani Poshak","राजस्थानी पोशाक"], c:TRAD},
+  {d:"26", w:["Fri","शुक्र"], t:["9:00 AM onwards · At our residence","सुबह 9:00 बजे से · हमारे निवास स्थान पर"], n:["Mata Poojan · Haldi & Mehendi","माता पूजन · हल्दी एवं मेहंदी"], dc:["Rajasthani Poshak","राजस्थानी पोशाक"], c:TRAD},
   {d:"26", w:["Fri","शुक्र"], t:["7:00 PM onwards · At our residence","शाम 7:00 बजे से · हमारे निवास स्थान पर"], n:["Mandap & Peravni","मंडप एवं परवणी"], dc:["Traditional ethnic attire","पारंपरिक भारतीय पोशाक"], c:TRAD},
-  {d:"27", w:["Sat","शनि"], t:["11:00 AM onwards","सुबह 11:00 बजे से"], n:["Tilak & Engagement","तिलक एवं सगाई"], dc:["Pastel colours","पेस्टल रंग"], c:[["#e9bfc9","Pastel Pink","पेस्टल गुलाबी"],["#b9a7d5","Lavender","लैवेंडर"],["#b8d9c4","Mint","मिंट"],["#d9c5a5","Beige","बेज"]]},
-  {d:"27", w:["Sat","शनि"], t:["7:00 PM onwards","शाम 7:00 बजे से"], n:["Wedding Ceremony","शुभ विवाह"], dc:["Pink, red, maroon & off-white","गुलाबी, लाल, मैरून एवं ऑफ-व्हाइट"], c:[["#d889a4","Pink","गुलाबी"],["#b52d43","Red","लाल"],["#54182c","Maroon","मैरून"],["#f5eee2","Off-white","ऑफ-व्हाइट"]], featured:true}
+  {d:"27", w:["Sat","शनि"], t:["11:00 AM onwards · At venue","सुबह 11:00 बजे से · स्थल पर"], n:["Tilak & Engagement","तिलक एवं सगाई"], dc:["Pastel colours","पेस्टल रंग"], c:[["#e9bfc9","Pastel Pink","पेस्टल गुलाबी"],["#b9a7d5","Lavender","लैवेंडर"],["#b8d9c4","Mint","मिंट"],["#d9c5a5","Beige","बेज"]]},
+  {d:"27", w:["Sat","शनि"], t:["7:00 PM onwards · At venue","शाम 7:00 बजे से · स्थल पर"], n:["Wedding Ceremony","शुभ विवाह"], dc:["Pink, red, maroon & off-white","गुलाबी, लाल, मैरून एवं ऑफ-व्हाइट"], c:[["#d889a4","Pink","गुलाबी"],["#b52d43","Red","लाल"],["#54182c","Maroon","मैरून"],["#f5eee2","Off-white","ऑफ-व्हाइट"]], featured:true}
 ];
 
 function el(tag, cls, en, hi){
