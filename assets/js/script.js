@@ -105,8 +105,8 @@ document.getElementById("shareBtn").addEventListener("click", () => {
   const pageUrl = window.location.href;
   const names = `${CONFIG.partnerOne} & ${CONFIG.partnerTwo}`;
   const message = currentLanguage === "hi"
-    ? `${names} के विवाह का सादर निमंत्रण! तारीख: 27 फरवरी 2027। स्थान: ${CONFIG.venueAddress}। अधिक जानकारी: ${pageUrl}`
-    : `You're warmly invited to ${names}' wedding on 27 February 2027 in ${CONFIG.venueAddress}. Invitation: ${pageUrl}`;
+    ? `${names} के विवाह का सादर निमंत्रण!\n\nतारीख: 27 फरवरी 2027\nस्थान: ${CONFIG.venueAddress}\n\nअधिक जानकारी: ${pageUrl}`
+    : `You're warmly invited to ${names}'s wedding!\n\nDate: 27 February 2027\nVenue: ${CONFIG.venueAddress}\n\nInvitation: ${pageUrl}`;
   window.open("https://wa.me/?text=" + encodeURIComponent(message), "_blank", "noopener,noreferrer");
 });
 
